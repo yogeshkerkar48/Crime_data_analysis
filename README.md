@@ -1,8 +1,6 @@
 
-# Project Title
+#  Crimetracker 360°: Cloud-Based Policing Analytics
 
-
-# 📌 CrimeTracker 360
 
 > **"Data-driven insights to make US cities safer."**  
 CrimeTracker 360 analyzes crime incident data from **NYPD**, **LAPD** (2010–2023) to uncover patterns, hotspots, and weapon trends.  
@@ -15,13 +13,13 @@ Despite the availability of extensive crime-related data, cities often struggle 
 
 This project aims to analyze historical crime records using big data technologies to extract actionable insights that can help law enforcement agencies:
 
-📌 Understand crime distribution by type, time, and location
+- Understand crime distribution by type, time, and location
 
-📌 Identify trends and anomalies across years and neighbourhoods
+- Identify trends and anomalies across years and neighbourhoods
 
-📌 Improve prediction and prevention strategies
+- Improve prediction and prevention strategies
 
-📌 Support data-driven policing through real-time dashboards
+- Support data-driven policing through real-time dashboards
 
 ## 📌 Objectives
 -  Identify **most common crime types** across NYPD, LAPD datasets.  
@@ -67,12 +65,12 @@ This project aims to analyze historical crime records using big data technologie
 ## 📌Tech stack
 
 
--  **Cloud & Storage:** AWS S3, AWS Glue, AWS Athena  
--  **Data Processing:** PySpark, Python (Pandas, NumPy)  
--  **Database:** AWS Glue Data Catalog 
--  **Visualization:** Power BI 
--  **Version Control:** GitHub  
--  **Automation:** Github action and Terraform
+-  **Cloud & Storage:** AWS S3, AWS Glue, AWS Athena.  
+-  **Data Processing:** PySpark, SparkSQL, Python (Pandas, NumPy).  
+-  **Database:** AWS Glue Data Catalog. 
+-  **Visualization:** Power BI. 
+-  **Version Control:** GitHub.  
+-  **Automation:** Github action and Terraform.
 ## 📌 Workflow
 
 1.  **Data Collection** – Crime records from NYPD, LAPD.  
@@ -83,7 +81,13 @@ This project aims to analyze historical crime records using big data technologie
 6.  **Dashboard Creation** – Interactive visuals with filters.
 
 ## 📌Architecture Diagram
-<img width="3200" height="1604" alt="Blank diagram (3)" src="https://github.com/user-attachments/assets/5c36e5c4-e2fd-44f3-bc60-ddd5b88fae1e" />
+<img width="3200" height="1604" alt="Blank diagram (3)" src="https://github.com/user-attachments/assets/6251786c-0c0e-4c76-a3aa-053c437a3e3b" />
+
+
+## Dashboard
+<img width="1416" height="791" alt="Screenshot 2025-08-20 094120" src="https://github.com/user-attachments/assets/a92d8122-8f24-4c25-a3e7-cfdccb3b67fc" />
+<img width="1422" height="792" alt="Screenshot 2025-08-20 094252" src="https://github.com/user-attachments/assets/1479e44f-017e-4f99-81bd-04c806f65232" />
+<img width="1415" height="799" alt="Screenshot 2025-08-20 094315" src="https://github.com/user-attachments/assets/b0565e97-7669-43a1-a708-d214eabe0958" />
 
 
 
